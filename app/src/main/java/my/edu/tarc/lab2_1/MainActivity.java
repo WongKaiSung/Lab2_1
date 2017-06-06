@@ -20,6 +20,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SecondActivity.class);
         intent.putExtra("MSG", msg);
         startActivity(intent);
-
+    //test
     }
 }
